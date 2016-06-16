@@ -22,7 +22,6 @@ var manipulator = {
       img_data.data[i] = gray;
       img_data.data[i + 1] = gray;
       img_data.data[i + 2] = gray;
-      img_data.data[i + 3] = gray;
 
     }
     ctx.putImageData(img_data, 0, 0);
